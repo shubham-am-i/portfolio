@@ -12,8 +12,8 @@ header {
   position: relative;
 }
 
-.header__container h1,
-h3 {
+.header__container > h1,
+.header__container > h3 {
   font-family: "Sacramento", cursive;
   font-size: 3rem;
 }
@@ -86,9 +86,9 @@ h3 {
 /* ======================= MEDIA QUERIES (MEDIUM DEVICES) =================== */
 @media screen and (max-width: 1024px) {
   header {
+    height: 95vh;
     padding-top: 13rem;
   }
- 
 }
 
 /* ======================= MEDIA QUERIES (SMALL  DEVICES) =================== */
