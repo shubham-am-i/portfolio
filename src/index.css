@@ -36,10 +36,11 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
+  color: var(--color-white);
   columns: var(--color-white);
   line-height: 1.7;
   background-image: url("./assets/bg-texture.png");
-  text-align: center;
+  
 }
 
 /* ===================== GENERAL STYLES =================== */
@@ -63,6 +64,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
