@@ -26,7 +26,7 @@ export default function About() {
             <article className="about__card">
               <FaUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>Not yet. You have the change to be the first</small>
+              <small>Not yet. You have the chance to be the first</small>
             </article>
 
             <article className="about__card">

@@ -11,7 +11,7 @@ import { BsBook } from "react-icons/bs";
 
 export default function Nav() {
 
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#portfolio')
 
   return (
     <nav>

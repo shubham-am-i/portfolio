@@ -86,16 +86,17 @@ header {
 /* ======================= MEDIA QUERIES (MEDIUM DEVICES) =================== */
 @media screen and (max-width: 1024px) {
   header {
-    height: 95vh;
-    padding-top: 13rem;
+    height: 75vh;
+    padding-top: 6rem;
   }
 }
 
 /* ======================= MEDIA QUERIES (SMALL  DEVICES) =================== */
 @media screen and (max-width: 600px) {
-  /* .header {
-    height: 70vh;
-  } */
+  header {
+    height: 85vh;
+    padding-top: 5rem;
+  }
 
   .header__socials,
   .scroll__down {
