@@ -2,8 +2,8 @@ import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/me.jpg";
 import HeaderSocials from "./HeaderSocials";
-import Typed from "typed.js";
-import { useEffect } from "react";
+// import Typed from "typed.js";
+// import { useEffect } from "react";
 
 export default function Header() {
   // useEffect(() => {

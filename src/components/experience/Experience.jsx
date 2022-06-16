@@ -8,8 +8,12 @@ import {
   SiExpress,
   SiFirebase,
 } from "react-icons/si";
+// Progress componenet
+import Progress from "../progress/Progress";
 
-export default function experience() {
+export default function Experience() {
+
+
   return (
     <section id="experience">
       <h5>What Skills I Have</h5>
@@ -24,7 +28,7 @@ export default function experience() {
               <FaReact id="icon" />
               <div>
                 <h4>React</h4>
-                <small>70%</small>
+                <Progress done="80"/>
               </div>
             </article>
 
@@ -32,7 +36,7 @@ export default function experience() {
               <DiJavascript1 id="icon" />
               <div>
                 <h4>Javascript</h4>
-                <small>80%</small>
+                <Progress done="90"/>
               </div>
             </article>
 
@@ -40,7 +44,7 @@ export default function experience() {
               <SiRedux id="icon" />
               <div>
                 <h4>Redux</h4>
-                <small>50%</small>
+                <Progress done="50"/>
               </div>
             </article>
 
@@ -48,7 +52,7 @@ export default function experience() {
               <SiCss3 id="icon" />
               <div>
                 <h4>CSS</h4>
-                <small>70%</small>
+                <Progress done="70"/>
               </div>
             </article>
 
@@ -56,7 +60,7 @@ export default function experience() {
               <FaHtml5 id="icon" />
               <div>
                 <h4>HTML</h4>
-                <small>90%</small>
+                <Progress done="90"/>
               </div>
             </article>
 
@@ -64,7 +68,7 @@ export default function experience() {
               <FaSass id="icon" />
               <div>
                 <h4>Sass</h4>
-                <small>40%</small>
+                <Progress done="40"/>
               </div>
             </article>
           </div>
@@ -79,7 +83,7 @@ export default function experience() {
               <FaNodeJs id="icon" />
               <div>
                 <h4>Node</h4>
-                <small>80%</small>
+                <Progress done="80"/>
               </div>
             </article>
 
@@ -87,7 +91,7 @@ export default function experience() {
               <SiExpress id="icon" />
               <div>
                 <h4>Express</h4>
-                <small>70%</small>
+                <Progress done="80"/>
               </div>
             </article>
 
@@ -95,7 +99,7 @@ export default function experience() {
               <SiMongodb id="icon" />
               <div>
                 <h4>MongoDB</h4>
-                <small>80%</small>
+                <Progress done="70"/>
               </div>
             </article>
 
@@ -103,7 +107,7 @@ export default function experience() {
               <SiFirebase id="icon" />
               <div>
                 <h4>Firebase</h4>
-                <small>85%</small>
+                <Progress done="85"/>
               </div>
             </article>
 
@@ -111,7 +115,7 @@ export default function experience() {
               <FaGitAlt id="icon" />
               <div>
                 <h4>Git</h4>
-                <small>70%</small>
+                <Progress done="70"/>
               </div>
             </article>
           </div>

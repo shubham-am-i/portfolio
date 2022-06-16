@@ -22,10 +22,16 @@ export default function Portfolio() {
               href="https://github.com/shubham-am-i"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
-            <a href="https://www.google.co.in" className="btn btn-primary" target="_blank">
+            <a
+              href="https://www.google.co.in"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
               Live Demo
             </a>
           </div>
@@ -41,10 +47,16 @@ export default function Portfolio() {
               href="https://github.com/shubham-am-i"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
-            <a href="https://www.google.co.in" className="btn btn-primary" target="_blank">
+            <a
+              href="https://www.google.co.in"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
               Live Demo
             </a>
           </div>
@@ -60,10 +72,16 @@ export default function Portfolio() {
               href="https://github.com/shubham-am-i/inner-Vibes-Music-App/tree/master"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
-            <a href="https://inner-vibes-music-app.herokuapp.com/index.html" className="btn btn-primary" target="_blank">
+            <a
+              href="https://inner-vibes-music-app.herokuapp.com/index.html"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
               Live Demo
             </a>
           </div>
@@ -79,10 +97,16 @@ export default function Portfolio() {
               href="https://github.com/shubham-am-i"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
-            <a href="https://www.google.co.in" className="btn btn-primary" target="_blank">
+            <a
+              href="https://www.google.co.in"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
               Live Demo
             </a>
           </div>
@@ -98,18 +122,20 @@ export default function Portfolio() {
               href="https://github.com/shubham-am-i"
               className="btn"
               target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
-            <a href="https://www.google.co.in" className="btn btn-primary" target="_blank">
+            <a
+              href="https://www.google.co.in"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
               Live Demo
             </a>
           </div>
         </article>
-
-
-
-
       </div>
     </section>
   );
