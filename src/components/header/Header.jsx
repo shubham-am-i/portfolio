@@ -2,26 +2,26 @@ import "./header.css";
 import CTA from "./CTA";
 import ME from "../../assets/me.jpg";
 import HeaderSocials from "./HeaderSocials";
-// import Typed from "typed.js";
-// import { useEffect } from "react";
+import Typed from "typed.js";
+import { useEffect } from "react";
 
 export default function Header() {
-  // useEffect(() => {
-  //   const typed = new Typed(".tag", {
-  //     strings: ["a programmer", "Fullstack Developer", "Spiritual Seeker"], // Strings to display
-  //     // Speed settings, try diffrent values untill you get good results
-  //     startDelay: 300,
-  //     typeSpeed: 150,
-  //     backSpeed: 80,
-  //     backDelay: 400,
-  //     loop: true,
-  //   });
+  useEffect(() => {
+    const typed = new Typed(".tag", {
+      strings: ["a programmer", "Fullstack Developer", "Spiritual Seeker"], // Strings to display
+      // Speed settings, try diffrent values untill you get good results
+      startDelay: 300,
+      typeSpeed: 150,
+      backSpeed: 80,
+      backDelay: 400,
+      loop: true,
+    });
 
-  //   // Destroying
-  //   return () => {
-  //     typed.destroy();
-  //   };
-  // }, []);
+    // Destroying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <header>
@@ -29,7 +29,7 @@ export default function Header() {
         <h3> I'm</h3>
         <h1>Shubham</h1>
         <h5 className="text-light">
-          <span className="tag">something</span>
+          <span className="tag"></span>
         </h5>
         <CTA />
         <HeaderSocials />
