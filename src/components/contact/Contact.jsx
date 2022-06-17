@@ -64,7 +64,7 @@ export default function Contact() {
               +876759<span className="star">****</span>{" "}
             </h5>
             <a
-              href="https://api.whatsapp.com/send?phone=8767598584"
+              href="https://api.whatsapp.com/send?phone=+918767598584"
               target="_blank"
               rel="noreferrer"
             >

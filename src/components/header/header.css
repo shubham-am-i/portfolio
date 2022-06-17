@@ -94,7 +94,7 @@ header {
 /* ======================= MEDIA QUERIES (SMALL  DEVICES) =================== */
 @media screen and (max-width: 600px) {
   header {
-    height: 85vh;
+    height: 90vh;
     padding-top: 5rem;
   }
 
