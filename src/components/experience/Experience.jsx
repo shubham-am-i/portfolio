@@ -1,5 +1,5 @@
 import "./experience.css";
-import { FaReact, FaHtml5, FaSass, FaNodeJs, FaGitAlt } from "react-icons/fa";
+import { FaReact, FaHtml5, FaNodeJs, FaGitAlt, FaBootstrap } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import {
   SiRedux,
@@ -28,7 +28,7 @@ export default function Experience() {
               <FaReact id="icon" />
               <div>
                 <h4>React</h4>
-                <Progress done="80"/>
+                <Progress done="80" color = "blue"/>
               </div>
             </article>
 
@@ -36,7 +36,7 @@ export default function Experience() {
               <DiJavascript1 id="icon" />
               <div>
                 <h4>Javascript</h4>
-                <Progress done="90"/>
+                <Progress done="90" color="darkBlue"/>
               </div>
             </article>
 
@@ -44,7 +44,7 @@ export default function Experience() {
               <SiRedux id="icon" />
               <div>
                 <h4>Redux</h4>
-                <Progress done="50"/>
+                <Progress done="65" color="steelBlue"/>
               </div>
             </article>
 
@@ -52,7 +52,7 @@ export default function Experience() {
               <SiCss3 id="icon" />
               <div>
                 <h4>CSS</h4>
-                <Progress done="70"/>
+                <Progress done="80" color="singerBlue"/>
               </div>
             </article>
 
@@ -60,15 +60,15 @@ export default function Experience() {
               <FaHtml5 id="icon" />
               <div>
                 <h4>HTML</h4>
-                <Progress done="90"/>
+                <Progress done="90" color="darkBlue"/>
               </div>
             </article>
 
             <article className="experience__details">
-              <FaSass id="icon" />
+              <FaBootstrap id="icon" />
               <div>
-                <h4>Sass</h4>
-                <Progress done="40"/>
+                <h4>React-bootstrap</h4>
+                <Progress done="90" color="steelBlue"/>
               </div>
             </article>
           </div>
@@ -83,7 +83,7 @@ export default function Experience() {
               <FaNodeJs id="icon" />
               <div>
                 <h4>Node</h4>
-                <Progress done="80"/>
+                <Progress done="80" color="lightBlue"/>
               </div>
             </article>
 
@@ -91,7 +91,7 @@ export default function Experience() {
               <SiExpress id="icon" />
               <div>
                 <h4>Express</h4>
-                <Progress done="80"/>
+                <Progress done="80" color="singerBlue"/>
               </div>
             </article>
 
@@ -99,7 +99,7 @@ export default function Experience() {
               <SiMongodb id="icon" />
               <div>
                 <h4>MongoDB</h4>
-                <Progress done="70"/>
+                <Progress done="70" color = "blue"/>
               </div>
             </article>
 
@@ -107,7 +107,7 @@ export default function Experience() {
               <SiFirebase id="icon" />
               <div>
                 <h4>Firebase</h4>
-                <Progress done="85"/>
+                <Progress done="85" color="lightBlue"/>
               </div>
             </article>
 
@@ -115,7 +115,7 @@ export default function Experience() {
               <FaGitAlt id="icon" />
               <div>
                 <h4>Git</h4>
-                <Progress done="70"/>
+                <Progress done="70" color="singerBlue"/>
               </div>
             </article>
           </div>
