@@ -78,11 +78,12 @@
         padding: 2rem 0rem;
     }
 
-
+    .experience__content {
+        margin-left: 1rem;
+    }
     .experience__details {
         display: flex;
         column-gap: 0.7rem;
-        margin-left: 1rem;
     }
     
     #icon {
