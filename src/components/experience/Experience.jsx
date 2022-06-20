@@ -67,7 +67,7 @@ export default function Experience() {
             <article className="experience__details">
               <FaBootstrap id="icon" />
               <div>
-                <h4>React-bootstrap</h4>
+                <h4>Bootstrap</h4>
                 <Progress done="90" color="steelBlue"/>
               </div>
             </article>
