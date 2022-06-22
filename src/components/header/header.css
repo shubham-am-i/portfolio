@@ -15,7 +15,25 @@ header {
 .header__container > h1,
 .header__container > h3 {
   font-family: "Sacramento", cursive;
-  font-size: 3rem;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+/* fallback for IE */
+.gradient-text {
+  color: inherit;
+}
+
+
+
+
+/* gradient text for modern browsers */
+@supports (background-clip: text) {
+  .gradient-text {
+    background-image: linear-gradient( #63a4ff 0%, #83eaf1 74%);
+    background-clip: text;
+    color: transparent;
+  }
 }
 
 .header__container h3 {
@@ -29,7 +47,7 @@ header {
 
 /* ======================  CTA ====================== */
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 25rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
@@ -54,23 +72,15 @@ header {
 }
 
 /* ====================== ME =========================*/
-/* .me {
-  background: linear-gradient(var(--color-primary), transparent);
+.me {
   width: 22rem;
   height: 22rem;
-  position: absolute;
+  margin: 0 auto;
   left: calc(50% - 11rem);
-  margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
-} */
-.me img {
-  background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  /* height: 100rem; */
-  position: absolute;
-  left: calc(50% - 11rem);
-  margin-top: 4rem;
-  border-radius: 50%;
+  margin-top: 2rem;
+  text-align: center;
+  border-radius: 7%;
+  overflow: hidden;
 }
 
 /* ===================== SCROLL DOWN ====================== */
@@ -95,18 +105,15 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
-    padding-top: 2rem;
+    padding-top: 5rem;
   }
 
   .header__socials {
     font-size: 1.4rem;
     flex-direction: row;
-    align-items: center;
+    position: static;
     gap: 1.3rem;
-    position: absolute;
-    left: 9rem;
-    /* margin-top: 1rem; */
-    bottom: 5rem;
+    margin: 2rem 0 0 9.5rem;
   }
 
   .header__socials::after {
@@ -116,10 +123,8 @@ header {
   .scroll__down{
     display: none;
   }
-  
 
-  /* .header__socials,
-  .scroll__down {
-    display: none;
-  } */
+  .cta {
+    margin-top: 2rem;
+  }
 }

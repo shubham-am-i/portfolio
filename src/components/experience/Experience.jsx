@@ -44,7 +44,15 @@ export default function Experience() {
               <SiRedux id="icon" />
               <div>
                 <h4>Redux</h4>
-                <Progress done="65" color="steelBlue"/>
+                <Progress done="65" color="lightBlue"/>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <FaBootstrap id="icon" />
+              <div>
+                <h4>Bootstrap</h4>
+                <Progress done="90" color="lightBlue"/>
               </div>
             </article>
 
@@ -64,13 +72,6 @@ export default function Experience() {
               </div>
             </article>
 
-            <article className="experience__details">
-              <FaBootstrap id="icon" />
-              <div>
-                <h4>Bootstrap</h4>
-                <Progress done="90" color="steelBlue"/>
-              </div>
-            </article>
           </div>
         </div>
 

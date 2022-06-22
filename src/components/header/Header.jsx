@@ -16,7 +16,7 @@ export default function Header() {
             ], // Strings to display
             // Speed settings, try diffrent values untill you get good results
             startDelay: 300,
-            typeSpeed: 150,
+            typeSpeed: 140,
             backSpeed: 80,
             backDelay: 400,
             loop: true,
@@ -32,16 +32,16 @@ export default function Header() {
         <header>
             <div className='container header__container'>
                 <h3> I'm</h3>
-                <h1>Shubham</h1>
+                <h1 className='gradient-text'>Shubham</h1>
                 <h5 className='text-light'>
                     <span className='tag'></span>
                 </h5>
-                <CTA />
-                <HeaderSocials />
 
                 <div className='me'>
                     <img src={ME} alt='me' />
                 </div>
+                <HeaderSocials />
+                <CTA />
 
                 <a href='#contact' className='scroll__down'>
                     Scroll Down

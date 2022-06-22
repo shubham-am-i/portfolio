@@ -20,23 +20,23 @@ export default function About() {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>6+ months learning/projects</small>
+              <small>7+ months</small>
             </article>
 
-            <article className="about__card">
+            {/* <article className="about__card">
               <FaUsers className="about__icon" />
               <h5>Clients</h5>
               <small>Not yet. You have the chance to be the first</small>
-            </article>
+            </article> */}
 
             <article className="about__card">
               <FaFolderOpen className="about__icon" />
               <h5>Projects</h5>
-              <small>5+ Completed Projects</small>
+              <small>5 &nbsp; Completed Projects</small>
             </article>
           </div>
           <p>
-          A MERN Developer. I like creating and adding features to existing web applications. I challenge myself by learning new tools and technologies which bring efficiencies and increased productivity to my workflow. A part of my day involves working on web projects as well as studying sanskrit literature and philosophy.
+          A MERN Developer. I can create websites and add features to existing ones. Impatient to learn new technologies which bring efficiency and productivity to my workflow. I spend most of the day working on <strong>web projects</strong> as well as studying sanskrit literature and philosophy.
           </p>
         </div>
       </div>

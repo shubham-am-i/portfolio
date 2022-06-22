@@ -40,35 +40,30 @@ export default function Contact() {
           <article className="contact__option">
             <MdOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
-            <h5>email me</h5>
-            <a href="mailto:shubhampatil.dev@gmail.com">Send a message</a>
+            <a href="mailto:shubhampatil.dev@gmail.com">Email Me</a>
           </article>
 
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
-            <h5>connect with me</h5>
             <a
               href="https://m.me/profile.php?id=100012652503558"
               target="_blank"
               rel="noreferrer"
             >
-              Send a message
+              Send A Message
             </a>
           </article>
 
           <article className="contact__option">
             <RiWhatsappLine className="contact__option-icon" />
             <h4>WhatsApp</h4>
-            <h5>
-              +876759<span className="star">****</span>{" "}
-            </h5>
-            <a
+           <a
               href="https://api.whatsapp.com/send?phone=+918767598584"
               target="_blank"
               rel="noreferrer"
             >
-              Send a message
+              WhatsApp Me
             </a>
           </article>
         </div>
@@ -77,10 +72,10 @@ export default function Contact() {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="Your Name"
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="email" name="email" placeholder=" Email" required />
           <textarea
             name="message"
             rows="4"

@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&display=swap');
+
 .about__container {
+  font-family: 'Montserrat', sans-serif;
   display: grid;
   grid-template-columns: 30% 55%;
   gap: 5%;
@@ -31,7 +34,7 @@
 
 .about__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -67,7 +70,7 @@
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  font-size: large;
   text-align: justify;
 }
 
