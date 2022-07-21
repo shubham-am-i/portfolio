@@ -1,12 +1,12 @@
 import React from "react";
 import "./footer.css";
-import { IoMdRocket } from "react-icons/io";
+import { RiArrowUpSLine } from "react-icons/ri";
 
 export default function Footer() {
   return (
     <footer>
       <a href="#">
-      <IoMdRocket className="rocket-top" />
+      <RiArrowUpSLine className="rocket-top" />
       <p>Back to Top</p>
       </a>
     </footer>

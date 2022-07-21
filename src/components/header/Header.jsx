@@ -16,9 +16,9 @@ export default function Header() {
             ], // Strings to display
             // Speed settings, try diffrent values untill you get good results
             startDelay: 300,
-            typeSpeed: 140,
-            backSpeed: 80,
-            backDelay: 400,
+            typeSpeed: 100,
+            backSpeed: 40,
+            backDelay: 1000,
             loop: true,
         })
 

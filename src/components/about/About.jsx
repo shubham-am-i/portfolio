@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/profile.jpg";
-import { FaAward, FaUsers, FaFolderOpen } from "react-icons/fa";
+import { FaAward, FaFolderOpen } from "react-icons/fa";
 
 export default function About() {
   return (

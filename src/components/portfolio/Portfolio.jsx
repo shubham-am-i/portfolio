@@ -1,9 +1,8 @@
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG1 from "../../assets/proshop.png";
+import IMG2 from "../../assets/habit_tracker3.png";
 import IMG3 from "../../assets/music_player.png";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio6.jpg";
+
 
 export default function Portfolio() {
   return (
@@ -16,10 +15,10 @@ export default function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>eCommerce APP </h3>
+          <h3>Proshop eCommerce App </h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/shubham-am-i"
+              href="https://github.com/shubham-am-i/techshop"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -27,32 +26,7 @@ export default function Portfolio() {
               Github
             </a>
             <a
-              href="https://www.google.co.in"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
-          </div>
-          <h3>Quick Chat - React </h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/shubham-am-i"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href="https://www.google.co.in"
+              href="https://ecomm-proshop-app.herokuapp.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -66,10 +40,10 @@ export default function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>Music Player Template</h3>
+          <h3>Music Player - Frontend </h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/shubham-am-i/inner-Vibes-Music-App/tree/master"
+              href="https://github.com/shubham-am-i/inner-Vibes-Music-App"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -77,7 +51,7 @@ export default function Portfolio() {
               Github
             </a>
             <a
-              href="https://inner-vibes-music-app.herokuapp.com/index.html"
+              href="https://inner-vibes-music-app.herokuapp.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
@@ -87,39 +61,16 @@ export default function Portfolio() {
           </div>
         </article>
 
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/shubham-am-i"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href="https://www.google.co.in"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
+        
 
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
+            <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Habit Tracker - Mini Project</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/shubham-am-i"
+              href="https://github.com/shubham-am-i/habit-tracker"
               className="btn"
               target="_blank"
               rel="noreferrer"
@@ -127,7 +78,7 @@ export default function Portfolio() {
               Github
             </a>
             <a
-              href="https://www.google.co.in"
+              href="https://loop-habit-tracker.netlify.app/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"

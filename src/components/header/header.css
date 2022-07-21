@@ -76,7 +76,7 @@ header {
   left: calc(50% - 11rem);
   margin-top: 2rem;
   text-align: center;
-  border-radius: 7%;
+  border-radius: 50%;
   overflow: hidden;
 }
 
@@ -102,7 +102,7 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
   }
 
   .header__socials {

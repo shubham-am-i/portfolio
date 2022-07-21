@@ -59,7 +59,7 @@ export default function Contact() {
             <RiWhatsappLine className="contact__option-icon" />
             <h4>WhatsApp</h4>
            <a
-              href="https://api.whatsapp.com/send?phone=+918767598584"
+              href="https://api.whatsapp.com/send?text=Hey shubham, I had recently gone through your portfolio...&phone=918767598584"
               target="_blank"
               rel="noreferrer"
             >
