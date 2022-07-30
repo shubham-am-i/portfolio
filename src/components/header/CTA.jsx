@@ -1,4 +1,4 @@
-import CV from '../../assets/resume.pdf'
+import CV from '../../assets/Shubham_Patil_Resume.pdf'
 
 export default function CTA() {
   return (
