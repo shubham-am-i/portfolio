@@ -36,7 +36,7 @@ export default function About() {
             </article>
           </div>
           <p>
-          A MERN Developer. I can create websites and add features to existing ones. Impatient to learn new technologies which bring efficiency and productivity to my workflow. I spend most of the day working on <strong>web projects</strong> as well as studying sanskrit literature and philosophy.
+          A Web Developer specializing in JavaScript stack. I love developing websites and applications which are cross browser compatible, fully responsive, scalable and optimized for performance. Impatient to learn new technologies which bring efficiency and productivity to my workflow. I spend most of the day working on <strong>web projects</strong> as well as studying sanskrit literature and philosophy.
           </p>
         </div>
       </div>
