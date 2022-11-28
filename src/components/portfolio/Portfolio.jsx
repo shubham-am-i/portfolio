@@ -1,3 +1,4 @@
+import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/proshop.png'
 import IMG2 from '../../assets/habit_tracker3.png'
@@ -20,7 +21,7 @@ export default function Portfolio() {
               href='https://github.com/shubham-am-i/proshop'
               className='btn'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               Github
             </a>
@@ -28,7 +29,7 @@ export default function Portfolio() {
               href='https://proshop-btyz.onrender.com/'
               className='btn btn-primary'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               Live Demo
             </a>
@@ -45,7 +46,7 @@ export default function Portfolio() {
               href='https://github.com/shubham-am-i/inner-Vibes-Music-App'
               className='btn'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               Github
             </a>
@@ -53,7 +54,7 @@ export default function Portfolio() {
               href='https://inner-vibes.netlify.app/'
               className='btn btn-primary'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               Live Demo
             </a>
@@ -70,7 +71,7 @@ export default function Portfolio() {
               href='https://github.com/shubham-am-i/habit-tracker'
               className='btn'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               Github
             </a>
@@ -78,7 +79,7 @@ export default function Portfolio() {
               href='https://loop-habit-tracker.netlify.app/'
               className='btn btn-primary'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               Live Demo
             </a>

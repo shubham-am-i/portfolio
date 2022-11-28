@@ -1,3 +1,4 @@
+import React from 'react'
 import CV from '../../assets/resume.pdf'
 
 export default function CTA() {
