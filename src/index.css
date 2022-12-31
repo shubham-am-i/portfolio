@@ -11,8 +11,8 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
-  --color-bg-variant: #293462;
+  /* --color-bg: #08f667; */
+  --color-bg-variant: #ffffff;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
@@ -36,10 +36,10 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background: var(--color-bg);
-  color: var(--color-white);
-  columns: var(--color-white);
+  color: var(--color-red);
+  columns: var(--color-red);
   line-height: 1.7;
-  background-image: url("./assets/bg-texture.png");
+ 
   
 }
 
@@ -55,7 +55,7 @@ h3,
 h4,
 h5 {
   font-weight: 500;
-  color: var(--color-white);
+  color: var(--color-red);
 }
 
 h1 {
@@ -70,16 +70,17 @@ section {
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: rgb(0, 0, 0);
 }
 
 section > h2 {
-    color: var(--color-primary);
+    color: green;
     margin-bottom: 3rem;
 }
 
+/* uper wale test */
 .text-light {
-    color: var(--color-light);
+    color: rgb(0, 252, 21);
 }
 
 a {
@@ -103,7 +104,7 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: rgb(9, 176, 34);
     color: var(--color-bg);
     border-color: transparent;
 }

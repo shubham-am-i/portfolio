@@ -1,11 +1,12 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/proshop.png'
-import IMG2 from '../../assets/habit_tracker3.png'
-import IMG3 from '../../assets/music_player.png'
-import IMG4 from '../../assets/notes.png'
-import IMG5 from '../../assets/jobify.png'
-import IMG6 from '../../assets/devcamper.png'
+// import IMG6 from '../../assets/devcamper.png'
+import calculator from "../../assets/calculator.png"
+import mern from "../../assets/mern.png"
+import spotify from "../../assets/spotify.png"
+import superhero from "../../assets/superhero.png"
+import alaram from "../../assets/alaram.png"
+
 
 export default function Portfolio() {
   return (
@@ -16,12 +17,12 @@ export default function Portfolio() {
       <div className='container portfolio__container'>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG1} alt='' />
+            <img src={mern} alt='' />
           </div>
-          <h3>Proshop Ecommerce App </h3>
+          <h3>Login MERN Authentication </h3>
           <div className='portfolio__item-cta'>
             <a
-              href='https://github.com/shubham-am-i/proshop'
+              href='https://github.com/Namanj413/Login_Authentication'
               className='btn'
               target='_blank'
               rel='noopener noreferrer'
@@ -29,7 +30,7 @@ export default function Portfolio() {
               Github
             </a>
             <a
-              href='https://proshop-btyz.onrender.com/'
+              href='https://celebrated-belekoy-00ae5d.netlify.app/'
               className='btn btn-primary'
               target='_blank'
               rel='noopener noreferrer'
@@ -41,12 +42,12 @@ export default function Portfolio() {
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG5} alt='' />
+            <img src={superhero} alt='' />
           </div>
-          <h3>Jobify </h3>
+          <h3>Super Hero Hunt </h3>
           <div className='portfolio__item-cta'>
             <a
-              href='https://github.com/shubham-am-i/jobify'
+              href='https://github.com/Namanj413/superherohunt00.github.io'
               className='btn'
               target='_blank'
               rel='noopener noreferrer'
@@ -54,7 +55,7 @@ export default function Portfolio() {
               Github
             </a>
             <a
-              href='https://jobify-7qh9.onrender.com/'
+              href='https://namanj413.github.io/superherohunt00.github.io/'
               className='btn btn-primary'
               target='_blank'
               rel='noopener noreferrer'
@@ -66,12 +67,12 @@ export default function Portfolio() {
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG6} alt='' />
+            <img src={spotify} alt='' />
           </div>
-          <h3>DevCamper API </h3>
+          <h3>Spotify Clone </h3>
           <div className='portfolio__item-cta'>
             <a
-              href='https://github.com/shubham-am-i/devcamper_api'
+              href='https://github.com/Namanj413/Spotifiy'
               className='btn'
               target='_blank'
               rel='noopener noreferrer'
@@ -79,7 +80,7 @@ export default function Portfolio() {
               Github
             </a>
             <a
-              href='https://devcamper-73xp.onrender.com/'
+              href='https://namanj413.github.io/Spotifiy/'
               className='btn btn-primary'
               target='_blank'
               rel='noopener noreferrer'
@@ -91,12 +92,12 @@ export default function Portfolio() {
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG4} alt='' />
+            <img src={alaram} alt='' />
           </div>
-          <h3>Google Keep Clone </h3>
+          <h3>Alaram Clock </h3>
           <div className='portfolio__item-cta'>
             <a
-              href='https://github.com/shubham-am-i/Notes'
+              href='https://github.com/Namanj413/alaramclock.github.io'
               className='btn'
               target='_blank'
               rel='noopener noreferrer'
@@ -104,7 +105,7 @@ export default function Portfolio() {
               Github
             </a>
             <a
-              href='https://notes-hfhj.onrender.com/'
+              href='https://namanj413.github.io/alaramclock.github.io/'
               className='btn btn-primary'
               target='_blank'
               rel='noopener noreferrer'
@@ -116,12 +117,12 @@ export default function Portfolio() {
 
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG3} alt='' />
+            <img src={calculator} alt='' />
           </div>
-          <h3>Music Player - Frontend Desktop View </h3>
+          <h3>Calculator</h3>
           <div className='portfolio__item-cta'>
             <a
-              href='https://github.com/shubham-am-i/inner-Vibes-Music-App'
+              href='https://github.com/Namanj413/Calculator.github.io'
               className='btn'
               target='_blank'
               rel='noopener noreferrer'
@@ -129,7 +130,7 @@ export default function Portfolio() {
               Github
             </a>
             <a
-              href='https://inner-vibes.netlify.app/'
+              href='https://namanj413.github.io/Calculator.github.io/'
               className='btn btn-primary'
               target='_blank'
               rel='noopener noreferrer'
@@ -139,30 +140,7 @@ export default function Portfolio() {
           </div>
         </article>
 
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG2} alt='' />
-          </div>
-          <h3>Habit Tracker - Mini Project</h3>
-          <div className='portfolio__item-cta'>
-            <a
-              href='https://github.com/shubham-am-i/habit-tracker'
-              className='btn'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Github
-            </a>
-            <a
-              href='https://loop-habit-tracker.netlify.app/'
-              className='btn btn-primary'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
+       
       </div>
     </section>
   )

@@ -1,10 +1,10 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me-modified.jpg'
-import HeaderSocials from './HeaderSocials'
+import ME from '../../assets/myimg.png'
 import Typed from 'typed.js'
 import { useEffect } from 'react'
+
 
 export default function Header() {
   useEffect(() => {
@@ -30,24 +30,40 @@ export default function Header() {
   }, [])
 
   return (
-    <header>
+
+    <>
+    <div style={{
+       backgroundImage: `url("https://wallpaperaccess.com/full/39655.jpg")` ,
+       backgroundSize: 'cover',
+       height:"120vh"
+
+    }}>
+      <br/>
+    <header className='headerbg' style={{
+      marginTop:"2%"
+    }}>
+   
       <div className='container header__container'>
-        <h3> I'm</h3>
-        <h1 className='gradient-text'>Shubham</h1>
+        <h3 style={{
+          color:"white",
+          fontSize:"100px"
+        }}> I'm</h3>
+        <h1 className='gradient-text'>Naman Jain</h1>
         <h5 className='text-light'>
           <span className='tag'></span>
         </h5>
 
         <div className='me'>
-          <img src={ME} alt='me' />
-        </div>
-        <HeaderSocials />
-        <CTA />
+     
+        
+        <div className='header__socials'>
+   </div>
+       
 
-        <a href='#contact' className='scroll__down'>
-          Scroll Down
-        </a>
+       
+      </div>
       </div>
     </header>
+    </div></>
   )
 }

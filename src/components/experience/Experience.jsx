@@ -21,7 +21,7 @@ import Progress from '../progress/Progress'
 export default function Experience() {
   return (
     <section id='experience'>
-      <h5>What Skills I Have</h5>
+      <h5 className='about_texts'>What Skills I Have</h5>
       <h2>Experience with Technologies</h2>
 
       <div className='container experience__container'>
@@ -31,8 +31,8 @@ export default function Experience() {
           <div className='experience__content'>
             <article className='experience__details'>
               <FaReact id='icon' />
-              <div>
-                <h4>React</h4>
+              <div >
+                <h4 >React</h4>
                 <Progress done='80' color='blue' />
               </div>
             </article>
@@ -57,7 +57,7 @@ export default function Experience() {
               <FaBootstrap id='icon' />
               <div>
                 <h4>Bootstrap</h4>
-                <Progress done='90' color='lightBlue' />
+                <Progress done='90' color='darkBlue' />
               </div>
             </article>
 
