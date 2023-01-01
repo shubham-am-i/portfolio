@@ -4,6 +4,10 @@
     gap: 2rem;
 }
 
+.about_texts{
+    color: black;
+}
+
 .experience__container>div {
     background: var(--color-bg-variant);
     padding: 2.4rem 2rem;
@@ -13,7 +17,7 @@
 }
 
 .experience__container>div:hover {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.745);
     border-color: var(--color-primary-variant);
     cursor: default;
 }

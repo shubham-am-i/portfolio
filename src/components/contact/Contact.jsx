@@ -1,6 +1,6 @@
 import './contact.css'
 import { MdOutlineMail } from 'react-icons/md'
-import { RiMessengerLine, RiWhatsappLine } from 'react-icons/ri'
+import { RiLinkedinBoxFill, RiGithubFill } from 'react-icons/ri'
 import React, { useRef } from 'react'
 import emailjs from 'emailjs-com'
 
@@ -41,7 +41,7 @@ export default function Contact() {
             <MdOutlineMail className='contact__option-icon' />
             <h4>Email</h4>
             <a
-              href='mailto:shubhampatil.dev@gmail.com'
+              href='mailto:Bhopalinaman@gmail.com'
               rel='noopener noreferrer'
             >
               Email Me
@@ -49,10 +49,10 @@ export default function Contact() {
           </article>
 
           <article className='contact__option'>
-            <RiMessengerLine className='contact__option-icon' />
-            <h4>Messenger</h4>
+            <RiLinkedinBoxFill className='contact__option-icon' />
+            <h4>LinkedIn</h4>
             <a
-              href='https://m.me/profile.php?id=100012652503558'
+              href='https://www.linkedin.com/in/namanj413/'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -61,20 +61,20 @@ export default function Contact() {
           </article>
 
           <article className='contact__option'>
-            <RiWhatsappLine className='contact__option-icon' />
-            <h4>WhatsApp</h4>
+            <RiGithubFill className='contact__option-icon' />
+            <h4>Github</h4>
             <a
-              href='https://api.whatsapp.com/send?text=Hey shubham, I had recently gone through your portfolio...&phone=918767598584'
+              href='https://github.com/Namanj413'
               target='_blank'
               rel='noopener noreferrer'
             >
-              WhatsApp Me
+             Follow On Github
             </a>
           </article>
         </div>
         {/* END OF CONTACT SECTION */}
         <form ref={form} onSubmit={sendEmail}>
-          <input type='text' name='name' placeholder='Your Name' required />
+          <input type='text' name='name' placeholder='Your Name' required  />
           <input type='email' name='email' placeholder=' Email' required />
           <textarea
             name='message'
